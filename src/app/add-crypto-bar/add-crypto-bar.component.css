@@ -1,0 +1,22 @@
+.control-align {
+    /* background-color: lightgreen; */
+    margin: 20px; 
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center; 
+    } 
+    
+        .crypto-dropdown {
+        /* background-color: lawngreen;  */
+        }
+    
+        .amount-text-field {
+        /* background-color: lightslategray; */
+        padding-left: 20px;  
+        }   
+    
+        .add-button {
+        /* background-color: seagreen;  */
+        padding: 10px 0 0 30px; 
+        
+        }
