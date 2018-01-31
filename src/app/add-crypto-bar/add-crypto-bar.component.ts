@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Crypto } from '../crypto-currency';
+import { CRYPTOS } from '../mock-cryptos';
 
 
 @Component({
@@ -8,18 +9,17 @@ import { Crypto } from '../crypto-currency';
   styleUrls: ['./add-crypto-bar.component.css']
 })
 export class AddCryptoBarComponent implements OnInit {
-amount : number = 0;
 crypto : Crypto = {
  id: 1,
  name: 'neo',
  amount: 0
-
 }
+cryptos = CRYPTOS;
+
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.amount);
 
   
   }
