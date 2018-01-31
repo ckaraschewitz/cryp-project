@@ -20,3 +20,9 @@
         padding: 10px 0 0 30px; 
         
         }
+
+.content-align {
+    display: flex; 
+    justify-content: center; 
+    /* background-color: slateblue; */
+    }

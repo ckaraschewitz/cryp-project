@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -14,9 +15,12 @@ import { CryptoTableComponent } from './crypto-table/crypto-table.component';
     FooterComponent,
     AddCryptoBarComponent,
     CryptoTableComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
