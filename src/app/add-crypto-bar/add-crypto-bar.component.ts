@@ -19,6 +19,7 @@ cryptos = CRYPTOS;
 
 cryptoValue : number = 0;
 
+
  onAddCrypto() {
   this.cryptoValue = 1;
 }
@@ -41,6 +42,15 @@ cryptoValue : number = 0;
       this.cryptoValue = calculateTotal(Price, Amount);
       console.log(this.cryptoValue);
 
+      console.log(this.crypto.id);
+
+
 
 }
+
+onInput($event) {
+  $event.preventDefault();
+  console.log('selected: ' + $event.target.value);
+}
+
 }

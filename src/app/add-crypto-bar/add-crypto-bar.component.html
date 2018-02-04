@@ -2,7 +2,7 @@
   <div class="crypto-dropdown">
   <form> 
       <div class="mdl-selectfield mdl-js-selectfield mdl-selectfield--floating-label">
-          <select class="mdl-selectfield__select" id="professsion2" name="professsion">
+          <select [(ngModel)]="crypto.id" class="mdl-selectfield__select" id="professsion2" name="professsion" (input)="onInput($event)">
           <option value=""></option>
           <option *ngFor="let crypto of cryptos" [value]="crypto.id">{{crypto.name}}</option>
           </select>
