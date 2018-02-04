@@ -15,12 +15,11 @@ import { CryptoTableComponent } from './crypto-table/crypto-table.component';
     FooterComponent,
     AddCryptoBarComponent,
     CryptoTableComponent
-    
+
   ],
   imports: [
     BrowserModule,
     FormsModule
-    
   ],
   providers: [],
   bootstrap: [AppComponent]

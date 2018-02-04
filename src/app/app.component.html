@@ -4,8 +4,8 @@
         <app-header></app-header>
     </header>
     <main>
-        <app-add-crypto-bar></app-add-crypto-bar>
-        <app-crypto-table></app-crypto-table>
+        <app-add-crypto-bar (onCryptoAdded)="onCryptoAdded($event)"></app-add-crypto-bar>
+        <app-crypto-table [cryptoList]="cryptos"></app-crypto-table>
     </main>    
         <!-- <footer class="page-footer">
         <app-footer></app-footer>
