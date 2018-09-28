@@ -1,0 +1,79 @@
+body {
+
+    background-color: #EDEDED; 
+    
+
+}
+
+.main-wrapper {
+display: flex;  
+flex-flow: column wrap;
+}
+
+.header {
+background: -webkit-linear-gradient(left, #ff4081 , #FF055A); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #ff4081, #FF055A); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, #ff4081, #FF055A); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #ff4081 , #FF055A); /* Standard syntax */
+height: 80px; 
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+font-family: open-sans; 
+color: #fff; 
+
+} 
+
+    .headline {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;     
+    font-size: 30px; 
+    margin: 0px; 
+    padding: 20px 0 0 20px;
+    
+    }
+
+    .sub-headline {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200; 
+    margin: 0px; 
+    padding: 0 0 5px 20px;
+    
+        
+    }
+
+.control-wrapper {
+/* background-color: lightgreen; */
+margin: 20px; 
+display: flex; 
+flex-flow: row nowrap;
+justify-content: center; 
+} 
+
+    .crypto-dropdown {
+    /* background-color: lawngreen;  */
+    }
+
+    .amount-text-field {
+    /* background-color: lightslategray; */
+    padding-left: 20px;  
+    }   
+
+    .add-button {
+    /* background-color: seagreen;  */
+    padding: 10px 0 0 30px; 
+    
+    }
+
+
+.content-wrapper {
+    margin: 20px; 
+    
+    /* background-color: slateblue; */
+
+    }
+
+.footer  {
+/* background-color: lightpink;  */
+
+
+}
